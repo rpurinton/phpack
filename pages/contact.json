@@ -1,0 +1,11 @@
+{
+    "parts": [
+        "<html lang=\"en\">",
+        "head/head.json",
+        "<body>",
+        "body/header.html",
+        "body/contact.html",
+        "body/footer.html",
+        "</body></html>"
+    ]
+}

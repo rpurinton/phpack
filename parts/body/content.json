@@ -1,0 +1,9 @@
+{
+    "parts": [
+        "<div class=\"content\">",
+        "content/intro.html",
+        "content/features.html",
+        "content/testimonials.html",
+        "</div>"
+    ]
+}

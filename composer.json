@@ -1,0 +1,19 @@
+{
+    "name": "rpurinton/phpack",
+    "description": "A tool to modularize and compile PHP and HTML components.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Russell Purinton",
+            "email": "russell.purinton@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "bin": [
+        "phpack"
+    ],
+    "version": "1.0.0"
+}

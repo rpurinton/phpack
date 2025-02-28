@@ -1,0 +1,9 @@
+{
+    "parts": [
+        "<div class=\"blog\">",
+        "blog/post1.html",
+        "blog/post2.html",
+        "blog/post3.html",
+        "</div>"
+    ]
+}

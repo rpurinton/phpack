@@ -1,0 +1,9 @@
+{
+    "parts": [
+        "<head>",
+        "meta.html",
+        "styles.html",
+        "scripts.html",
+        "</head>"
+    ]
+}
