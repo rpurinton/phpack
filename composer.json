@@ -1,7 +1,7 @@
 {
     "name": "rpurinton/phpack",
     "description": "A tool to modularize and compile PHP and HTML components.",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
