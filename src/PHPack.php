@@ -25,7 +25,7 @@ class PHPack
 
     public function __construct()
     {
-        set_exception_handler([$this, 'exceptionHandler']);
+        set_exception_handler($this->exceptionHandler(...));
         $currentDir = getcwd();
         [$this->pagesDir, $this->partsDir, $this->publicDir] = ["$currentDir/pages", "$currentDir/parts", "$currentDir/public"];
         if (!is_dir($this->pagesDir) || !is_dir($this->partsDir)) {
@@ -267,7 +267,7 @@ class PHPack
         return $output;
     }
 
-    private function exceptionHandler(Throwable $e): void
+    public function exceptionHandler(Throwable $e): void
     {
         $this->report['errors'][] = [
             'file' => 'Unknown',
