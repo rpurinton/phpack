@@ -9,6 +9,11 @@
             "email": "russell.purinton@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "RPurinton\\PHPack\\": "src/"
+        }
+    },
     "require": {
         "php": ">=7.0"
     },
